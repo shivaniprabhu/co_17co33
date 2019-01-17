@@ -1,3 +1,4 @@
+//binary to decimal and decimal to binary
 #include <stdio.h>
 #include <math.h>
 int binary_decimal(int n);
