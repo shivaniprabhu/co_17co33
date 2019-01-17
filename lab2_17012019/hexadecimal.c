@@ -6,27 +6,21 @@ int main()
 {
    int n,choice;
    char c;
- do
- {
-   printf("Enter 1 for printing decimal number\n");
-   printf("Enter 2 for printing binary number\n");
-   printf("Enter 3 to exit\n");
    printf("Enter your choice\n");
    scanf("%d",&choice);
    switch(choice)
    {
-     case 1: printf("\nEnter a binary number: ");
+     case 1: printf("Enter a binary number: ");
              scanf("%d", &n);
-             printf("%d in binary = %d in decimal\n", n, binary_decimal(n));
+             printf("%d in binary = %d in decimal", n, binary_decimal(n));
              break;
-     case 2:  printf("\nEnter a decimal number: ");
+     case 2:  printf("Enter a decimal number: ");
              scanf("%d", &n);
-             printf("%d in decimal = %d in binary\n", n, decimal_binary(n));
+             printf("%d in decimal = %d in binary", n, decimal_binary(n));
              break;
-     case 3: exit(0);
-     default:  printf("\nEnter proper choice ");
+
+    default:  printf("Enter proper choice ");
     }
-}while(choice!=4);
 }
 
 int decimal_binary(int n)
