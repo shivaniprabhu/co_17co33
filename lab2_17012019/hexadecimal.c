@@ -15,7 +15,11 @@ int main()
     printf("\nPress 2 to convert octal to binary\n");
     printf("\nPress 3 to convert binary to hexadecimal\n");
     printf("\nPress 4 to convert hexadecimal to binary\n");
-    printf("\nPress 5 to exit\n");
+    printf("\nPress 5 to convert decimal to octal\n");
+    printf("\nPress 6 to convert octal to decimal\n");
+    printf("\nPress 7 to convert decimal to hexadecimal\n");
+    printf("\nPress 8 to convert hexadecimal to decimal\n");
+    printf("\nPress 9 to exit\n");
     printf("\nEnter your choice");
     scanf("%d",&p);
     switch(p)
@@ -41,6 +45,10 @@ int main()
                 scanf("%s",hex);
                 printf("Binary number: %d",hex_binary(hex));
                 break;
+        case 5:
+                break
+        case 6:
+
         case 5: exit(1);
 
         default: printf("\nEnter proper choice");
