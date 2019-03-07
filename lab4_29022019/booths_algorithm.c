@@ -152,7 +152,7 @@ void add(int num[])
 
 }
 
-void arshift() //for arithmetic shift right
+void arshift() //aritmetic shift right
 {
 
     int temp = pro[4], temp2 = pro[0], i;
