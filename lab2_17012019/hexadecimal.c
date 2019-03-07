@@ -45,9 +45,7 @@ int main()
                 scanf("%s",hex);
                 printf("Binary number: %d",hex_binary(hex));
                 break;
-        case 5:
-                break
-        case 6:
+
 
         case 5: exit(1);
 
